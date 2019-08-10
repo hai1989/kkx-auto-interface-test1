@@ -1,0 +1,14 @@
+uri: /kkx/emp/test6
+method: post
+case:
+  -
+    name: zs
+    salary: 3000
+    test:
+      | ddd
+      | dd
+      |  d
+      |  sss
+  -
+    name: ls
+    salary: 30000

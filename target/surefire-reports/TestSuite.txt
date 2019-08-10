@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.258 sec <<< FAILURE!
+testNormal(mp.emp.EmpPageTest)  Time elapsed: 0.114 sec  <<< FAILURE!
+java.lang.AssertionError: 响应取出的数据:ghj与期望结果不一致:CC expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at util.CheckUtil.checkContent(CheckUtil.java:172)
+	at util.CheckUtil.checkJson(CheckUtil.java:156)
+	at util.CheckUtil.checkOne(CheckUtil.java:121)
+	at util.CheckUtil.check(CheckUtil.java:105)
+	at mp.emp.EmpPageTest.testNormal(EmpPageTest.java:55)
+

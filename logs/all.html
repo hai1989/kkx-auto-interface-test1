@@ -1,0 +1,76 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>test</title>
+<style type="text/css">
+<!--
+body, table {font-family: '??',arial,sans-serif; font-size: 12px;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>执行时间</th>
+<th>级别</th>
+<th>所在行</th>
+<th>log信息</th>
+</tr>
+<br></br>
+<tr bgcolor="white" style="font-size : xx-small;" colspan="4"><td title="执行时间">2019-08-10 11:37:53</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">HttpRequest.get:56</td>
+<td title="log信息">请求的url:http://localhost:8082/kkx/emp/page2?current=1&amp;size=3</td>
+</tr>
+<tr bgcolor="white" style="font-size : xx-small;" colspan="4"><td title="执行时间">2019-08-10 11:37:54</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">HttpRequest.get:71</td>
+<td title="log信息">请求的返回code:200</td>
+</tr>
+<tr bgcolor="white" style="font-size : xx-small;" colspan="4"><td title="执行时间">2019-08-10 11:37:54</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">HttpRequest.get:72</td>
+<td title="log信息">请求的返回data:{&quot;records&quot;:[{&quot;id&quot;:1,&quot;empName&quot;:&quot;CC&quot;,&quot;salary&quot;:12000.0,&quot;hiredate&quot;:&quot;2017-06-22T00:00:00.000+0000&quot;,&quot;isDelete&quot;:0},{&quot;id&quot;:2,&quot;empName&quot;:&quot;大叔&quot;,&quot;salary&quot;:34000.0,&quot;hiredate&quot;:&quot;2018-06-22T00:00:00.000+0000&quot;,&quot;isDelete&quot;:0},{&quot;id&quot;:3,&quot;empName&quot;:&quot;xinxin&quot;,&quot;salary&quot;:19000.0,&quot;hiredate&quot;:&quot;2012-06-22T00:00:00.000+0000&quot;,&quot;isDelete&quot;:0}],&quot;total&quot;:88,&quot;size&quot;:3,&quot;current&quot;:1,&quot;pages&quot;:30}</td>
+</tr>
+<tr bgcolor="white" style="font-size : xx-small;" colspan="4"><td title="执行时间">2019-08-10 11:37:54</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">CheckUtil.check:103</td>
+<td title="log信息">相应结果:{&quot;total&quot;:88,&quot;current&quot;:1,&quot;pages&quot;:30,&quot;size&quot;:3,&quot;records&quot;:[{&quot;isDelete&quot;:0,&quot;empName&quot;:&quot;CC&quot;,&quot;id&quot;:1,&quot;salary&quot;:12000.0,&quot;hiredate&quot;:&quot;2017-06-22T00:00:00.000+0000&quot;},{&quot;isDelete&quot;:0,&quot;empName&quot;:&quot;大叔&quot;,&quot;id&quot;:2,&quot;salary&quot;:34000.0,&quot;hiredate&quot;:&quot;2018-06-22T00:00:00.000+0000&quot;},{&quot;isDelete&quot;:0,&quot;empName&quot;:&quot;xinxin&quot;,&quot;id&quot;:3,&quot;salary&quot;:19000.0,&quot;hiredate&quot;:&quot;2012-06-22T00:00:00.000+0000&quot;}]}</td>
+</tr>
+<tr bgcolor="white" style="font-size : xx-small;" colspan="4"><td title="执行时间">2019-08-10 11:37:54</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">CheckUtil.checkOne:110</td>
+<td title="log信息">检查点:json:$.records[0].empName&lt;::&gt;=:CC</td>
+</tr>
+<tr bgcolor="white" style="font-size : xx-small;" colspan="4"><td title="执行时间">2019-08-10 11:37:54</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">EmpPageTest.testNormal:57</td>
+<td title="log信息">AAAAA</td>
+</tr>
+<tr bgcolor="white" style="font-size : xx-small;" colspan="4"><td title="执行时间">2019-08-10 11:37:54</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">HttpRequest.get:56</td>
+<td title="log信息">请求的url:http://localhost:8082/kkx/emp/page2?current=2&amp;size=3</td>
+</tr>
+<tr bgcolor="white" style="font-size : xx-small;" colspan="4"><td title="执行时间">2019-08-10 11:37:54</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">HttpRequest.get:71</td>
+<td title="log信息">请求的返回code:200</td>
+</tr>
+<tr bgcolor="white" style="font-size : xx-small;" colspan="4"><td title="执行时间">2019-08-10 11:37:54</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">HttpRequest.get:72</td>
+<td title="log信息">请求的返回data:{&quot;records&quot;:[{&quot;id&quot;:4,&quot;empName&quot;:&quot;ghj&quot;,&quot;salary&quot;:26000.0,&quot;hiredate&quot;:&quot;2012-01-22T00:00:00.000+0000&quot;,&quot;isDelete&quot;:0},{&quot;id&quot;:5,&quot;empName&quot;:&quot;沙发&quot;,&quot;salary&quot;:16000.0,&quot;hiredate&quot;:&quot;2013-01-22T00:00:00.000+0000&quot;,&quot;isDelete&quot;:0},{&quot;id&quot;:6,&quot;empName&quot;:&quot;mm&quot;,&quot;salary&quot;:16000.0,&quot;hiredate&quot;:&quot;2013-01-22T00:00:00.000+0000&quot;,&quot;isDelete&quot;:0}],&quot;total&quot;:88,&quot;size&quot;:3,&quot;current&quot;:2,&quot;pages&quot;:30}</td>
+</tr>
+<tr bgcolor="white" style="font-size : xx-small;" colspan="4"><td title="执行时间">2019-08-10 11:37:54</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">CheckUtil.check:103</td>
+<td title="log信息">相应结果:{&quot;total&quot;:88,&quot;current&quot;:2,&quot;pages&quot;:30,&quot;size&quot;:3,&quot;records&quot;:[{&quot;isDelete&quot;:0,&quot;empName&quot;:&quot;ghj&quot;,&quot;id&quot;:4,&quot;salary&quot;:26000.0,&quot;hiredate&quot;:&quot;2012-01-22T00:00:00.000+0000&quot;},{&quot;isDelete&quot;:0,&quot;empName&quot;:&quot;沙发&quot;,&quot;id&quot;:5,&quot;salary&quot;:16000.0,&quot;hiredate&quot;:&quot;2013-01-22T00:00:00.000+0000&quot;},{&quot;isDelete&quot;:0,&quot;empName&quot;:&quot;mm&quot;,&quot;id&quot;:6,&quot;salary&quot;:16000.0,&quot;hiredate&quot;:&quot;2013-01-22T00:00:00.000+0000&quot;}]}</td>
+</tr>
+<tr bgcolor="white" style="font-size : xx-small;" colspan="4"><td title="执行时间">2019-08-10 11:37:54</td>
+<td title="级别"><font color="green">INFO</font></td>
+<td title="所在行">CheckUtil.checkOne:110</td>
+<td title="log信息">检查点:json:$.records[0].empName&lt;::&gt;=:CC</td>
+</tr>

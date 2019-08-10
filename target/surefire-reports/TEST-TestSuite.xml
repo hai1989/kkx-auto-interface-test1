@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="2" failures="1" name="TestSuite" time="2.257" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="D:\Java\jdk1.8.0_181\jre\bin"/>
+    <property name="java.vm.version" value="25.181-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\ideaPros\auto-interface-test-v2"/>
+    <property name="java.runtime.version" value="1.8.0_181-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="D:\ideaPros\auto-interface-test-v2"/>
+    <property name="java.endorsed.dirs" value="D:\Java\jdk1.8.0_181\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\GAOHAI~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="D:\Java\jdk1.8.0_181\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Java\jdk1.8.0_181/bin;D:\Java\jdk1.8.0_181/bin;C:\Program Files (x86)\NetSarang\Xshell 6\;D:\Python27\;D:\Python27\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Java\jdk1.8.0_181\bin;D:\apache-jmeter-5.0\bin;D:\apache-maven-3.6.0\bin;D:\apache-ant-1.9.6\bin;D:\apache-ant-1.9.6\lib;D:\apache-jmeter-5.0\lib\ext\bsh-2.0b4.jar;D:\adt-bundle-windows-x86_64-20140321\sdk\tools;D:\adt-bundle-windows-x86_64-20140321\sdk\platform-tools;D:\adt-bundle-windows-x86_64-20140321\sdk\platforms;D:\adt-bundle-windows-x86_64-20140321\sdk\build-tools\android-4.4.2;D:\xin\;C:\Program Files\Git\cmd;C:\Users\gaohaijiang\AppData\Local\Microsoft\WindowsApps;C:\Users\gaohaijiang\AppData\Local\Programs\Fiddler;D:\JetBrains\IntelliJ_IDEA_2018.3.2\bin;;D:\xin\WebStorm 2018.3.3\bin;;C:\Users\gaohaijiang\AppData\Roaming\npm;D:\xin\mongoDB\bin;D:\Microsoft _VS_Code\bin;platform-tools;D:\xin\flutter\flutter_windows_v1.5.4-hotfix.2-stable\flutter\bin;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\gaohaijiang"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="user.name" value="gaohaijiang"/>
+    <property name="java.class.path" value="D:\ideaPros\auto-interface-test-v2\target\surefire\surefirebooter527719460346906017.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="D:\Java\jdk1.8.0_181\jre"/>
+    <property name="sun.java.command" value="D:\ideaPros\auto-interface-test-v2\target\surefire\surefirebooter527719460346906017.jar D:\ideaPros\auto-interface-test-v2\target\surefire\surefire8232729264787470203tmp D:\ideaPros\auto-interface-test-v2\target\surefire\surefire3172916462819381077tmp"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_181"/>
+    <property name="java.ext.dirs" value="D:\Java\jdk1.8.0_181\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\Java\jdk1.8.0_181\jre\lib\resources.jar;D:\Java\jdk1.8.0_181\jre\lib\rt.jar;D:\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;D:\Java\jdk1.8.0_181\jre\lib\jsse.jar;D:\Java\jdk1.8.0_181\jre\lib\jce.jar;D:\Java\jdk1.8.0_181\jre\lib\charsets.jar;D:\Java\jdk1.8.0_181\jre\lib\jfr.jar;D:\Java\jdk1.8.0_181\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="D:\mvn_localRepository"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="mp.emp.EmpPageTest" name="testNormal" time="0.888"/>
+  <testcase classname="mp.emp.EmpPageTest" name="testNormal" time="0.114">
+    <failure message="响应取出的数据:ghj与期望结果不一致:CC expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 响应取出的数据:ghj与期望结果不一致:CC expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at util.CheckUtil.checkContent(CheckUtil.java:172)
+	at util.CheckUtil.checkJson(CheckUtil.java:156)
+	at util.CheckUtil.checkOne(CheckUtil.java:121)
+	at util.CheckUtil.check(CheckUtil.java:105)
+	at mp.emp.EmpPageTest.testNormal(EmpPageTest.java:55)
+</failure>
+    <system-out>2019-08-10 11:37:54  [ common.HttpRequest.get(HttpRequest.java:56) ] - [ INFO ]  请求的url:http://localhost:8082/kkx/emp/page2?current=2&amp;size=3
+2019-08-10 11:37:54  [ common.HttpRequest.get(HttpRequest.java:71) ] - [ INFO ]  请求的返回code:200
+2019-08-10 11:37:54  [ common.HttpRequest.get(HttpRequest.java:72) ] - [ INFO ]  请求的返回data:{&quot;records&quot;:[{&quot;id&quot;:4,&quot;empName&quot;:&quot;ghj&quot;,&quot;salary&quot;:26000.0,&quot;hiredate&quot;:&quot;2012-01-22T00:00:00.000+0000&quot;,&quot;isDelete&quot;:0},{&quot;id&quot;:5,&quot;empName&quot;:&quot;沙发&quot;,&quot;salary&quot;:16000.0,&quot;hiredate&quot;:&quot;2013-01-22T00:00:00.000+0000&quot;,&quot;isDelete&quot;:0},{&quot;id&quot;:6,&quot;empName&quot;:&quot;mm&quot;,&quot;salary&quot;:16000.0,&quot;hiredate&quot;:&quot;2013-01-22T00:00:00.000+0000&quot;,&quot;isDelete&quot;:0}],&quot;total&quot;:88,&quot;size&quot;:3,&quot;current&quot;:2,&quot;pages&quot;:30}
+2019-08-10 11:37:54  [ util.CheckUtil.check(CheckUtil.java:103) ] - [ INFO ]  相应结果:{&quot;total&quot;:88,&quot;current&quot;:2,&quot;pages&quot;:30,&quot;size&quot;:3,&quot;records&quot;:[{&quot;isDelete&quot;:0,&quot;empName&quot;:&quot;ghj&quot;,&quot;id&quot;:4,&quot;salary&quot;:26000.0,&quot;hiredate&quot;:&quot;2012-01-22T00:00:00.000+0000&quot;},{&quot;isDelete&quot;:0,&quot;empName&quot;:&quot;沙发&quot;,&quot;id&quot;:5,&quot;salary&quot;:16000.0,&quot;hiredate&quot;:&quot;2013-01-22T00:00:00.000+0000&quot;},{&quot;isDelete&quot;:0,&quot;empName&quot;:&quot;mm&quot;,&quot;id&quot;:6,&quot;salary&quot;:16000.0,&quot;hiredate&quot;:&quot;2013-01-22T00:00:00.000+0000&quot;}]}
+2019-08-10 11:37:54  [ util.CheckUtil.checkOne(CheckUtil.java:110) ] - [ INFO ]  检查点:json:$.records[0].empName&lt;::&gt;=:CC
+</system-out>
+  </testcase>
+</testsuite>
